@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrecisionFlow Control Valves</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        /* HEADER */
+        header {
+            background: #0b1c2d;
+            color: #fff;
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        /* HERO */
+        .hero {
+            height: 90vh;
+            background:
+                linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+                url("https://images.unsplash.com/photo-1581091870627-3f089c3d8b70") center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            margin-top: 15px;
+            font-size: 1.2rem;
+            max-width: 700px;
+        }
+
+        /* SECTION */
+        section {
+            padding: 70px 8%;
+        }
+
+        section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: #0b1c2d;
+        }
+
+        /* GRID */
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #0b1c2d;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* FACILITY GALLERY */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #0b1c2d;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>PrecisionFlow Valves</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Manufacturing</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <div class="hero">
+        <div>
+            <h2>Advanced Control Valve Manufacturing</h2>
+            <p>
+                Delivering high-performance industrial control valves engineered for
+                precision flow control in oil & gas, power, chemical, and water industries.
+            </p>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section>
+        <h2>About Our Company</h2>
+        <p>
+            PrecisionFlow Valves is a leading manufacturer of industrial control valves.
+            We design and manufacture globe valves, ball valves, butterfly valves, and
+            pressure regulating systems built for durability, safety, and precision.
+            Our engineering expertise ensures reliable performance in critical applications.
+        </p>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section>
+        <h2>Our Control Valve Products</h2>
+
+        <div class="products">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581091012184-5c1c57a9b2c1">
+                <div class="card-content">
+                    <h3>Globe Control Valves</h3>
+                    <p>
+                        Designed for accurate throttling and flow regulation in high-pressure systems.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1601597111158-4c90bbf2a3c7">
+                <div class="card-content">
+                    <h3>Ball Control Valves</h3>
+                    <p>
+                        Durable quarter-turn valves offering tight shut-off and smooth operation.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581093588401-22d1d9c5a6fa">
+                <div class="card-content">
+                    <h3>Butterfly Valves</h3>
+                    <p>
+                        Compact and lightweight valves suitable for large diameter pipelines.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MANUFACTURING FACILITY -->
+    <section>
+        <h2>Manufacturing Facility</h2>
+
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1581092334515-9c4c6f82f3b8">
+            <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789">
+            <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231">
+            <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c">
+        </div>
+
+        <p style="margin-top:20px;">
+            Our facility features CNC machining centers, automated testing stations,
+            quality inspection labs, and advanced assembly lines to ensure every valve
+            meets international performance standards.
+        </p>
+    </section>
+
+    <footer>
+        © 2026 PrecisionFlow Control Valves | Engineered for Industrial Excellence
+    </footer>
+
+</body>
+
+</html>
